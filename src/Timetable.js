@@ -13,7 +13,7 @@ import axios from 'axios';
 function LessonCard(props) {
 
     const handleDelete = () => {
-        axios.delete('http://localhost:5000/api/v1/delete', {'data': props.lesson})
+        axios.delete('http://afternoon-caverns-61867.herokuapp.com/api/v1/delete', {'data': props.lesson})
     }
 
     if (props.lesson['_id'] != null) {
