@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "427eb123fa7f2be416c083a757567f59",
+    "revision": "c53e6f9707c4013831756a127aa0ff00",
     "url": "/School-timetable-frontend/index.html"
   },
   {
-    "revision": "f009856d65893a31d7b6",
+    "revision": "7059ff611ce1c7175fb9",
     "url": "/School-timetable-frontend/static/css/main.856e867a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/School-timetable-frontend/static/js/2.eac2ec54.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f009856d65893a31d7b6",
-    "url": "/School-timetable-frontend/static/js/main.5ab96831.chunk.js"
+    "revision": "7059ff611ce1c7175fb9",
+    "url": "/School-timetable-frontend/static/js/main.c63700ec.chunk.js"
   },
   {
     "revision": "995238c739a8eb70b2fc",
