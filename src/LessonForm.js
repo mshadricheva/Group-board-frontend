@@ -28,7 +28,7 @@ class LessonForm extends Component {
 
     handleClick = (e) => {
         console.log(this.state)
-        axios.post('http://afternoon-caverns-61867.herokuapp.com/api/v1/create_or_update', this.state)
+        axios.post('https://afternoon-caverns-61867.herokuapp.com/api/v1/create_or_update', this.state)
             .then(function(response) {
                 console.log(response);
                 window.location.reload(true);

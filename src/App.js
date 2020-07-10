@@ -17,7 +17,7 @@ class App extends React.Component {
     }
 
     componentWillMount() {
-        setTimeout(() => fetch('http://afternoon-caverns-61867.herokuapp.com/api/v1/get_all')
+        setTimeout(() => fetch('https://afternoon-caverns-61867.herokuapp.com/api/v1/get_all')
             .then((response) => response.text())
             .then((json) => {
                 this.setState({loading: false, data: JSON.parse(json)})
