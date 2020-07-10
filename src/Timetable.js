@@ -14,6 +14,11 @@ function LessonCard(props) {
 
     const handleDelete = () => {
         axios.delete('https://afternoon-caverns-61867.herokuapp.com/api/v1/delete', {'data': props.lesson})
+            .then(function(response) {
+                console.log(response);
+                window.location.reload(true);
+            })
+
     }
 
     if (props.lesson['_id'] != null) {
