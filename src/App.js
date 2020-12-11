@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Timetable from './Timetable'
+import Telega from './Telega';
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 class App extends React.Component {
@@ -17,7 +17,7 @@ class App extends React.Component {
     }
 
     componentWillMount() {
-        setTimeout(() => fetch('https://afternoon-caverns-61867.herokuapp.com/api/v1/get_all')
+        setTimeout(() => fetch('http://localhost:5000/api/v1/get_all')
             .then((response) => response.text())
             .then((json) => {
                 this.setState({loading: false, data: JSON.parse(json)})
@@ -25,8 +25,8 @@ class App extends React.Component {
     }
 
     render() {
-        return <><h1>School timetable</h1>
-            {this.state.loading ? this.getLoader() : <Timetable data={this.state.data}/>}</>;
+        return <><h1>MKN Dashboard</h1>
+            {this.state.loading ? this.getLoader() : <Telega data={this.state.data[0]}/>}</>;
     }
 }
 

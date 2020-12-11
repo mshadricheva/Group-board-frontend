@@ -4,7 +4,7 @@ import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import Button from '@material-ui/core/Button';
-import LessonForm from "./LessonForm";
+import MessageForm from "./MessageForm";
 
 const useStyles = makeStyles((theme) => ({
     modal: {
@@ -50,7 +50,7 @@ export default function TransitionsModal(props) {
                 }}
             >
                 <Fade in={open}>
-                    <LessonForm lesson={props.lesson} week_day={props.week_day} styles={classes}/>
+                    <MessageForm message={props.message} styles={classes}/>
                 </Fade>
             </Modal>
         </>
