@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/School-timetable-frontend/static/css/main.4641f65a.chunk.css",
+    "main.js": "/School-timetable-frontend/static/js/main.b84742f0.chunk.js",
+    "main.js.map": "/School-timetable-frontend/static/js/main.b84742f0.chunk.js.map",
+    "runtime-main.js": "/School-timetable-frontend/static/js/runtime-main.efc0a02a.js",
+    "runtime-main.js.map": "/School-timetable-frontend/static/js/runtime-main.efc0a02a.js.map",
+    "static/js/2.f904b403.chunk.js": "/School-timetable-frontend/static/js/2.f904b403.chunk.js",
+    "static/js/2.f904b403.chunk.js.map": "/School-timetable-frontend/static/js/2.f904b403.chunk.js.map",
+    "index.html": "/School-timetable-frontend/index.html",
+    "precache-manifest.3cb5a3c51aae6e6c683ecf51d1f25fae.js": "/School-timetable-frontend/precache-manifest.3cb5a3c51aae6e6c683ecf51d1f25fae.js",
+    "service-worker.js": "/School-timetable-frontend/service-worker.js",
+    "static/css/main.4641f65a.chunk.css.map": "/School-timetable-frontend/static/css/main.4641f65a.chunk.css.map",
+    "static/js/2.f904b403.chunk.js.LICENSE.txt": "/School-timetable-frontend/static/js/2.f904b403.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.efc0a02a.js",
+    "static/js/2.f904b403.chunk.js",
+    "static/css/main.4641f65a.chunk.css",
+    "static/js/main.b84742f0.chunk.js"
+  ]
+}
